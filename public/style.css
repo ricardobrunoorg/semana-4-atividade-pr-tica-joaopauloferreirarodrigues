@@ -24,3 +24,26 @@ body {
     padding: 8px;
     cursor: pointer;
 }
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #2c2c2c;
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.sidebar ul li:hover {
+    background: #444;
+}
+.main {
+    margin-left: 200px;
+    padding: 20px;
+}
